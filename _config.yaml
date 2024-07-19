@@ -1,0 +1,11 @@
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+environment: prod
+plugins:
+    - jekyll-katex
+katex:
+  js_path: "assets"
+  rendering_options:
+  # Default KaTeX rendering options
+  throw_error: false
+  error_color: "#cc0000"
